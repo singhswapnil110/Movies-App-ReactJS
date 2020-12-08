@@ -1,0 +1,128 @@
+
+body
+{
+/*background-color: #22254b;*/
+background-image: url(./Img1.jpg);
+color: #afdada;
+margin: 0;
+}
+
+.movie-container
+{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.movie-card
+{
+  width: 300px;
+  background-color: rgb(3, 21, 29);
+  margin: 10px 10px;
+  border-radius:10px;
+  box-shadow: 5px 5px 10px #181010;
+  overflow: hidden;
+  position : relative;
+}
+
+.movie-card:hover 
+{
+  box-shadow: 15px 10px 15px #181010;
+  width: 320px;
+  transition: ease-in-out 0.3s;
+}
+
+.movie-card:hover .movie-over
+{
+  opacity: 1;
+  transition: ease-in-out 0.3s;
+  transform: translateY(0%);
+}
+
+.movie-over
+{
+  padding: 10px;
+  position: absolute;
+  color : whitesmoke;
+  background-color: black;
+  bottom : 0;
+  opacity : 0;
+  transform: translateY(100%);
+}
+
+.movie-card img
+{
+  max-width: 100%;
+  background-color: black;
+  opacity: 1;
+}
+
+.movie-info
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.movie-info h3
+{
+  margin: 0;
+}
+
+.Header{
+display: flex;
+margin: 0px;
+align-items: center;
+justify-content: space-between;
+background-color: black;
+}
+
+.Header input
+{
+  height: 30px;
+  width: 350px;
+  background-color: transparent;
+  margin-right: 20px;
+  color: whitesmoke;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.Header h1
+{
+  margin-left: 20px;
+}
+
+.pageset
+{
+  display : flex;
+  margin-top : 20px;
+  height: 100px;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageset button
+{
+  text-align: center;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 5px;
+  font-weight: bolder;
+  height:50px;
+  width: 100px;
+  color : whitesmoke;
+  background-color: transparent;
+}
+
+.pageset button:hover
+{
+  background-color: whitesmoke;
+  color: black;
+  font-weight: bolder;
+  border : black 5px;
+  transition: ease-in-out 0.2s;
+}
+
