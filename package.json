@@ -1,6 +1,5 @@
 {
   "name": "trello-clone",
-  "homepage": "movies-react-app-swap.netlify.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
